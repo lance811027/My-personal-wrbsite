@@ -1,0 +1,126 @@
+* {
+  box-sizing: border-box;
+}
+#nav {
+  background-color: #ff6600;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 100;
+}
+
+#content {
+  position: relative;
+  top: 78px;
+  padding: 15px;
+}
+
+.container {
+ 
+  width: 800px;
+  margin: 0 auto;
+}
+
+.menu li {
+	width: 150px;
+  padding: 10px 0px;
+  border-radius: 8px;
+  list-style-type: none;
+  text-align: center;
+  background-color: #ff6600;
+  color: #fff;
+  display: inline-block;
+}
+
+a{
+	display: block;
+	color: #fff;
+	text-decoration: none;
+}
+
+li:hover a{
+	color:#ff6600;
+	font-weight:800;
+}
+
+#my-avatar {
+  float: left;
+}
+
+.item{
+	position: relative;
+	display: inline-block;
+  margin-bottom: 10px;
+}
+.item-info{
+	background-color: rgba(255,255,255,.8); 
+	opacity: 0;
+	position: absolute;
+	top:0;
+	left:0;
+}
+.item-info:hover{
+	opacity: 1;
+}
+
+
+form.contact-form {
+  
+  width: 50%;
+  margin: 0 auto;
+}
+
+.form-row {
+  margin-bottom: 15px;
+}
+
+
+.form-row input, .form-row textarea {
+  border-radius: 3px;
+  width: 100%;
+  padding: 7px;
+}
+
+.form-row textarea {
+  resize: none;
+  height: 4em;
+}
+.form-row button {
+  border: none;
+  border-radius: 3px;
+  padding: 10px 15px;
+  cursor: pointer;
+}
+
+.form-row button[type="sumbit"] {
+  background-color: #5995DA;
+  color: #FFFFFF;
+}
+
+.form-row button:hover {
+  background-color: #76AEED;
+}
+
+.form-row button:active {
+  background-color: #407FC7;
+}
+
+.menu {
+  float: right;
+}
+h1 {
+  text-align: center;
+}
+
+#about h1 {
+  margin-bottom: 0;
+  text-align: left;
+}
+#my-work-gallery {
+    text-align: center;
+}
+hr.bar {
+  border: 2px solid #ff6600;
+  width: 80px;
+}
